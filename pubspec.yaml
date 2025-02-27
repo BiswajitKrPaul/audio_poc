@@ -1,0 +1,35 @@
+name: audio_poc
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audio_waveforms: ^1.2.0
+  flutter_bloc: ^9.0.0
+  freezed_annotation: ^3.0.0
+  json_annotation: ^4.9.0
+  injectable: ^2.5.0
+  get_it: ^8.0.3
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  freezed: ^3.0.0
+  build_runner: ^2.4.15
+  json_serializable: ^6.9.4
+  injectable_generator: ^2.7.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
