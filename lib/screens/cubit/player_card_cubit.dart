@@ -39,7 +39,6 @@ class PlayerCardCubit extends Cubit<PlayerCardState> {
   Future<void> close() async {
     // Dispose of the player controller when the cubit is closed
     if (state.playerController != null) {
-      print("LOG: true");
       await state.playerController!.stopPlayer();
       state.playerController!.dispose();
     }
